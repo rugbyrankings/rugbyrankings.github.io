@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rugby Rankings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".na\
+v-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://rugbyrankings.com">Rugby Rankings</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/league">Leagues</a></li>
+              <li class="active"><a href="/team">Teams</a></li>
+              <li class="active"><a href="/match-results">Match Results</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+    <div class="row-fluid">
+      <div class="span8">
+        <div id="home">
+  <h1>Leagues</h1>
+  <ul class="leagues">
+      <li><a href="heineken-cup.html">Heineken Cup</a></li>
+      <li><a href="super-15-rugby.html">Super Rugby</a></li>
+      <li>International Rugby Union</li>
+  </ul>
+</div>
+
+Each league is listed and links to its page with historical rankings via a Jekyll category. 
+</br>
+The category is a post identifier that creates a url rr.com/category/post-id.html
+</br>
+Ideally, I'd like to set a redirect in the rr.com/league/leaguename/ index to point to the most recent ranking.
+</br>
+Or is this the wrong idea?
+
+      </div>
+      <div class="span4">
+        <h4>Find your Team or League</h4>
+
+<form class="form-search">
+  <input type="text" class="input-medium search-query">
+  <button type="submit" class="btn">Search</button>
+</form>
+
+<h4>Popular Rankings</h4>
+<ul>
+	<li>Heineken Cup</li>
+	<li>Super 15 Rugby</li>
+	<li>Another League/li>
+	<li>The French talk funny</li>
+</ul>
+<p>
+
+<div class="hero-unit">
+  <h1>An ad?</h1>
+  <p>
+    <a class="btn btn-primary btn-large">Learn more</a>
+  </p>
+</div>
+      </div>
+    </div>
+
+  </div>
+
+  </body>
+</html>
